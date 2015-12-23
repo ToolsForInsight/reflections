@@ -1,0 +1,57 @@
+Question 1:
+What happens when you initialize a repository? Why do you need to do it?
+
+Answer 1:
+You tell Git that it should track all of the files in this directory.  You
+need to do it so you can track revisions to files.
+
+Question 2:
+How is the staging area different from the working directory and the
+repository? What value do you think it offers?
+
+Answer 2:
+The staging area lets you group changes that you want to commit together.
+It's valuable to ensure each commit only has the components that you want
+it to (e.g., you can ensure each commit has a logical thought, and
+only one logical thought).
+
+Question 3:
+How can you use the staging area to make sure you have one
+commit per logical change?
+
+Answer 3:
+You can choose to add only files that have one logical change.
+For example, if you have three files with three distinct changes,
+you can stage and commit one at a time.
+
+Question 4:
+What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Answer 4:
+Branches could help 1) create different versions of the final product,
+2) test experimental features, and 3) enable two or more teams to work
+towards a goal in different ways.  It would help because each branch
+would share the same history up to a certain point.
+
+Question 5:
+How do the diagrams help you visualize the branch structure?
+
+Answer 5:
+Can see where branches split off and unreachable branches.
+
+Question 6:
+What is the result of merging two branches together? Why do we represent it 
+in the diagram the way we do?
+
+Answer 6:
+The result is a single branch with a shared commit lineage. We represent it
+in the diagram like we do because this question is vague.
+
+Question 7:
+What are the pros and cons of Git’s automatic merging
+vs. always doing merges manually?
+
+Answer 7:
+Pros of auto - faster
+Cons of auto - may not get things right
