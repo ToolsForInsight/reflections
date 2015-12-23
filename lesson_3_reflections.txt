@@ -1,0 +1,8 @@
+Question 1:
+When would you want to use a remote repository rather than keeping
+all your work local?
+
+Answer 1:
+I) When you want to instantly share your work with others.
+II) When you don't have access to your "usual" machine".
+III) When you are creating a lesson on how to use GitHub.
